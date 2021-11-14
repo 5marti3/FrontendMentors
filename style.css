@@ -9,6 +9,8 @@
   --neutral-very-pale: hsl(225, 100%, 98%);
   --neutral-desaturated: hsl(224, 23%, 55%);
   --neutral-dark: hsl(223, 47%, 23%);
+
+  font-family: "Red Hat Display", sans-serif;
 }
 html {
 }
@@ -55,7 +57,6 @@ body {
 }
 
 .main__content__text-section p {
-  font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   color: var(--neutral-desaturated);
   margin: auto;
@@ -64,7 +65,6 @@ body {
   width: 100%;
 }
 .main__content__text-section h3 {
-  font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
   color: var(--neutral-dark);
 }
@@ -92,7 +92,6 @@ body {
   padding-top: 1em;
   padding-bottom: 1em;
 
-  font-family: "Red Hat Display", sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -112,4 +111,17 @@ body {
 }
 .btn:hover {
   cursor: pointer;
+}
+
+.main__order__text {
+}
+
+.main__order__text__1 {
+  color: var(--neutral-dark);
+  font-weight: 900;
+}
+
+.main__order__text__2 {
+  color: var(--neutral-desaturated);
+  font-weight: 500;
 }
