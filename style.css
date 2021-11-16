@@ -70,6 +70,7 @@ body {
 }
 
 .main__order {
+  display: flex;
   margin: auto;
   background-color: var(--neutral-very-pale);
   margin-top: 1em;
