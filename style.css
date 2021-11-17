@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+
   --primary-pale: hsl(225, 100%, 94%);
   --primary-bright: hsl(245, 75%, 52%);
 
@@ -31,6 +32,7 @@ body {
 
   border-radius: 20px;
   background-color: white;
+  /*Size*/
   height: 500px;
   width: 325px;
 
@@ -39,7 +41,9 @@ body {
 }
 .main__hero-pic {
   background-image: url("images/illustration-hero.svg");
+  /*Workaround for Flexbox to adjust taken space in column, TODO: Find a nicer way*/
   height: 55%;
+
   background-position: center;
   background-size: cover;
   border-top-left-radius: 20px;
@@ -47,7 +51,9 @@ body {
 }
 
 .main__content {
+  /*Workaround for Flexbox to adjust taken space in column, TODO: Find a nicer way*/
   height: 100%;
+
   width: 80%;
   margin: auto;
 }
@@ -62,6 +68,7 @@ body {
   margin: auto;
   font-size: 14px;
   line-height: 18px;
+  /*TODO: Need way to set width as in the preview, still not perfect*/
   width: 100%;
 }
 .main__content__text-section h3 {
