@@ -120,16 +120,38 @@ body {
 .btn:hover {
   cursor: pointer;
 }
-
+/*TODO: Font size */
 .main__order__text {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
 }
 
 .main__order__text__1 {
   color: var(--neutral-dark);
   font-weight: 900;
+  margin: 0;
 }
 
 .main__order__text__2 {
   color: var(--neutral-desaturated);
   font-weight: 500;
+  margin: 0;
+}
+
+.main__order__changebtn {
+  margin: auto;
+  margin-right: 10px;
+}
+
+.main__order__changebtn .btn {
+  text-decoration: underline;
+  color: var(--primary-bright);
+  font-weight: 700;
+}
+
+.main__order__changebtn .btn:hover {
+  cursor: pointer;
 }
